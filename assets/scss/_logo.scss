@@ -6,6 +6,21 @@
   font-display: auto;
   font-family: monospace, monospace;
 
+  #cli-nav {
+    margin-left: 6px;
+    background: transparent;
+    color: $dark-color;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 13pt;
+    caret-shape: auto;
+    caret-color: $dark-color;
+    width: 560px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+  }
+
   img {
     height: 44px;
   }
